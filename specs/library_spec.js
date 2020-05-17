@@ -1,7 +1,4 @@
 const assert = require('assert');
-// const Library = require('../library');
-// const Book = require('../book');
-
 import Library from '../library';
 import Book from '../book';
 
@@ -49,7 +46,6 @@ describe('Library', function () {
       new Book('J R R Tolkien', 'The Return of the King', 'Fantasy')
     ];
     const libraryWithBooks = new Library(books);
-    // assert.equal(libraryWithBooks.printInventory(), libraryWithBooks.printInventory());
     console.assert(true, 'The Return of the King, J R R Tolkien, Fantasy')
   });
 
